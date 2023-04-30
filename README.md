@@ -31,13 +31,13 @@ To set up the project, follow these steps:
 1. Clone the repository.
 
 ```
-git clone <repository_url>
+git clone git@github.com:devery/qr-code-reader.git
 ```
 
 2. Change the current directory to the project folder.
 
 ```
-cd <project_directory>
+cd qr-code-reader
 ```
 
 3. Install the required dependencies.
