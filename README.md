@@ -2,6 +2,8 @@
 
 This project is a sample QR Code reader that checks if a product exists on the Devery Protocol inside the blockchain. The QR Code reader uses the Devery Protocol to verify the authenticity and details of a product. The application has a simple interface to scan QR codes and view product information if it exists on the blockchain.
 
+![Sample Picture](./capture.png)
+
 ## Components
 
 The project consists of the following main components:
