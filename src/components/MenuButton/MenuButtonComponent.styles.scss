@@ -1,0 +1,60 @@
+.menu-button-container {
+    background-color: #fff;
+    height: 75px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+
+    &:active {
+        box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+        transform: translateY(2px) translateX(2px);
+        //lets remove the blue for when we are active
+        background-color: #fff;
+    }
+
+}
+
+.menu-button-side {
+    background-color: #00BFA5;
+    width: 30px;
+    color: white;
+    height: 100%;
+    font-weight: bold;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    //lets add border-radius only to the right side
+    border-radius: 0px 5px 5px 0px;
+}
+
+.menu-button-content {
+    background-color: #fff;
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 20px;
+    width: 100%;
+    align-items: center;
+    color: #757575;
+    font-family: 'Roboto', sans-serif;
+
+
+    span {
+        display: block;
+        //center horizontally
+        margin: 0 auto;
+
+    }
+}
+
+.menu-button-image {
+    justify-self: flex-end;
+    align-items: flex-start;
+    height: 40px;
+
+}
+
+//lets remove the link

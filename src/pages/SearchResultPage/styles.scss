@@ -1,0 +1,54 @@
+.not-found-image {
+    margin: 0 auto;
+    display: block;
+    margin-top: 60px;
+    width: 60%;
+}
+
+.not-found-text {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    font-size: larger;
+}
+
+
+.found-text {
+
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    margin-top: 30px;
+    text-align: center;
+    font-size: larger;
+}
+
+.found-image {
+    margin: 0 auto;
+    display: block;
+    margin-top: 40px;
+    width: 40%;
+}
+
+.bottom-button {
+    position: absolute;
+    width: 100%;
+    bottom: 20px;
+    box-sizing: border-box;
+    max-width: 800px;
+}
+
+.search {
+    width: 80%;
+    height: 60px;
+    border-radius: 4px;
+    background-color: #fff;
+    border: 1px solid #949abf;
+    padding-left: 20px;
+    margin: 0 auto;
+    display: block;
+    margin-top: 40px;
+}
